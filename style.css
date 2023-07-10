@@ -1,0 +1,32 @@
+
+.btn-primary{
+    border-radius: 5px;
+  background:#E55473;
+  border: 0;
+  color: white;
+  font-size: 20px;
+  font-weight: 700;
+  padding: 15px 35px;
+}
+/* nav related style  */
+.nav-title{
+    margin-top: 10px;
+    padding: 100px;
+}
+.nav-header{
+    font-size: 60px;
+    color: #474747;
+    margin-bottom: 35px
+}
+.nav-info{
+    color: #272727;
+    font-size: px;
+    font-weight: 700;
+    margin-top: 5px;
+    margin-bottom: 30px;
+}
+.header{
+    display: flex;
+    background-color: #FCEEF1;
+    padding: 100px;
+}
