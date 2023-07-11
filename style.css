@@ -8,6 +8,9 @@
   font-weight: 700;
   padding: 15px 35px;
 }
+.text-primary{
+    color:#E55473 ;
+}
 /* nav related style  */
 .header{
     display: flex;
@@ -19,7 +22,7 @@
     max-width: 900px;
     margin-bottom: 40px;
 }
-.header .profile-pic{
+.header .profile-pic1{
     max-width: 500px;
     margin-left: 120px;
 }
@@ -55,3 +58,52 @@
 .img-1{
     background-color: #CC5896;
 } */
+
+/* sign up section style  */
+.section1{
+    display: flex;
+    align-items: center;
+    height: 500px;
+    margin-top: 100px;
+    background-color: #ebd9dd;
+}
+.section{
+    padding: 0px 0px 0px 200px;
+    text-align: center;
+    width: 50%;
+}
+.section-title{
+    font-size: 40px;
+    
+}
+.section-info{
+    color: #949292;
+    padding: 0px 200px;
+}
+
+.section, .profile-pic2{
+    margin-left: 50px;
+}
+
+/* latest section design  */
+.section2{
+    margin:150px 200px;
+    text-align: center;
+    background: url("img/Rectangle 9.png");
+    height: 400px;
+}
+/* .section-deal{
+
+} */
+.section-title1{
+    font-size: 40px;
+    color: #474747;
+    padding: 130px 0px 0px 0px;
+}
+.section-info1{
+    color: #949292;
+}
+.contact input[type="email"]{
+padding: 18px 180px;
+border-radius: 5px;
+}
