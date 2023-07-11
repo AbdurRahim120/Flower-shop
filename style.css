@@ -9,24 +9,49 @@
   padding: 15px 35px;
 }
 /* nav related style  */
+.header{
+    display: flex;
+    align-items: center;
+    background-color: #FCEEF1;
+    padding: 0px 0px 0px 150px;
+}
 .nav-title{
-    margin-top: 10px;
-    padding: 100px;
+    max-width: 900px;
+    margin-bottom: 40px;
+}
+.header .profile-pic{
+    max-width: 500px;
+    margin-left: 120px;
 }
 .nav-header{
     font-size: 60px;
     color: #474747;
-    margin-bottom: 35px
+    margin-bottom: 20px
 }
 .nav-info{
-    color: #272727;
-    font-size: px;
+    color: #949292;
     font-weight: 700;
     margin-top: 5px;
     margin-bottom: 30px;
 }
-.header{
-    display: flex;
-    background-color: #FCEEF1;
-    padding: 100px;
+/* feature section style  */
+.para-1{
+    text-align: center;
+    padding: 0px 600px;
 }
+.para-1-title{
+    font-size: 30px;
+    color: #474747;
+    margin-top: 100px;
+}
+.para-1-description{
+    margin: 0 auto;
+    color: #949292;
+}
+/* img style  */
+/* .img{
+    margin-left: 500px;
+}
+.img-1{
+    background-color: #CC5896;
+} */
