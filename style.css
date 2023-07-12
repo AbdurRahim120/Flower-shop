@@ -17,8 +17,7 @@
   background-color: #fceef1;
   padding: 0px 0px 0px 150px;
 }
-.nav-title {
-  max-width: 900px;
+.nav-title{
   margin-bottom: 40px;
 }
 .header .profile-pic1 {
@@ -39,7 +38,7 @@
 /* feature section style  */
 .para-1 {
   text-align: center;
-  padding: 0px 600px;
+  padding: 0px 300px;
 }
 .para-1-title {
   font-size: 30px;
@@ -47,14 +46,12 @@
   margin-top: 100px;
 }
 .para-1-description {
-  margin: 0 auto;
   color: #949292;
 }
 /* img style  */
 .img{
-    margin-left: 180px;
+    margin-left: 0px;
     margin-top: 50px;
-    gap: 30px;
 }
 
 /* sign up section style  */
@@ -86,11 +83,11 @@
 
 /* latest section design  */
 .section2 {
-  margin: 150px 200px;
+  margin: 110px 0px;
   text-align: center;
   background: url("img/Rectangle 9.png");
   height: 449px;
-  width: 1440px;
+  max-width: 1400px;
 }
 /* .section-deal{
 
@@ -106,7 +103,7 @@
 }
 .contact input[type="email"] {
   margin-top: 20px;
-  padding: 18px 250px;
+  padding: 18px 220px;
   border-radius: 10px;
   border: 1px solid white;
 }
@@ -121,7 +118,7 @@ font-size: 40px;
 color: #474747;
 }
 .section-description{
-padding: 0px 500px;
+padding: 0px 200px;
 margin-bottom: 50px;
 color: #757575;
 }
@@ -150,6 +147,7 @@ color: #757575;
 /* section3 style  */
 .section3{
   text-align: center;
+  align-items: center;
   margin-top: 125px;
 }
 .section3-title{
@@ -159,28 +157,31 @@ color: #757575;
 .section3-info{
   font-size: 18px;
   color: #949292;
-  padding: 0px 600px;
+  padding: 0px 300px;
   margin-bottom: 50px;
 }
 .img1,.pic4,.pic3,.pic2{
-  margin-left: 15px;
+  margin-left: 10px;
+  display: flex;
+  /* text-align: center;
+  align-items: center; */
 }
 .pic4{
   margin-left: 20px;
 }
-.pic1{
-  margin-left: 40px;
-}
+/* .pic1{
+  margin-left: px;
+} */
 
 
 
 /* footer section style  */
 .footer {
-  max-height: 400px;
+  max-height: 300px;
   max-width: 1922px;
   text-align: center;
   background: #111010;
-  padding: 100px 0px;
+  padding: 60px 0px;
 }
 .footer-title {
   font-size: 48px;
@@ -189,7 +190,7 @@ color: #757575;
 .footer-info {
   font-size: 18px;
   color: #ffffff;
-  padding: 0px 600px;
+  padding: 0px 300px;
 }
 .footer-end {
   font-size: 16px;
